@@ -180,6 +180,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 361d3527bdb277e44b5eeceafe3b0a3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCharacter: {fileID: 1107741939732666314, guid: fa8866b061f4112478e9ae5656c6326a, type: 3}
+  goal: {fileID: 3646536828862323536, guid: a0ff718263f5af04882899f8e66e67d2, type: 3}
+  avoidantNPC: {fileID: 2871378310390001413, guid: be172b219eb460240b8988caaafa246a, type: 3}
+  anxiousNPC: {fileID: 1022681551155180577, guid: 9fb5ed68e6697f74a9588bed0747d462, type: 3}
+  wall: {fileID: 8271581907247171180, guid: 287665618f700524b837fec470afbf38, type: 3}
+  currentPlayer: {fileID: 0}
+  xOffset: -15
+  yOffset: 5
+  playerStartPos: {x: 0, y: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +242,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
