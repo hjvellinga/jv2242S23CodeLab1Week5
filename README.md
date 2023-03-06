@@ -1,5 +1,5 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+# navigating a minefield of emotionally unavailable NPCs
 
-DO NOT LEAVE IT LIKE THIS!!!
+Simple 2D layout using default circle and square sprites. Player must reach a goal (whatever that may be) while avoiding unavailable NPCs. Some of them are anxiously attached, closing in on the player, others are avoidantly attached--they look like the goal but move away once the player gets close. Behavior not implemented yet, but described in debug.logs. Reaching the goal will move player to the next level (2 levels). 
 
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+Idea is to also add time pressure, each level equates a swipe session on a dating app :) 
